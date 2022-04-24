@@ -12,28 +12,40 @@ For this analysis, a dataset of customer reviews, provided by Amazon, was used (
 The purpose of this analysis is to test whether bias plays a role in producing favorable reviews from Vine participants. The results will be somewhat limited, however, given that they will only reflect measured bias in the sampled dataset and not the entire Amazon review ecosystem in its' entirety.
 
 ## The Results
+
 <ul>
   <li> How many Vine reviews and non-Vine reviews were there?</li>
-  ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_paid.png)<br />
-  ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_unpaid.png)<br />
-  <ul>
+
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_paid.png)<br>
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_unpaid.png)
+  
+<ul>
     <li> The total number of Vine reviews was 261.</li>
     <li> The total number of non-Vine reviews was 24,040.</li>
-  </ul>
+   </ul>
+</ul>
+<ul>  
   <li> How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?</li>
-  <ul>
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/fivestar_paid.png)
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/fivestar_unpaid.png)
+ 
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/fivestar_paid.png)<br>
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/fivestar_unpaid.png)
+
+<ul>
     <li> Total number of 5 starred Vine reviews was 106.</li>
     <li> Total number of 5 starred non-Vine reviews was 10,899. </li>
   </ul>
+</ul>
+<ul>
   <li> What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?</li>
+  
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/percentage_paid.png)<br>
+![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/percentage_unpaid.png)
+  
   <ul>
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/percentage_paid.png)
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/percentage_unpaid.png)
     <li> Percentage of 5 starred Vine reviews was 40.6%.</li>
     <li> Percentage of 5 starred non-Vine reviews was 45.3%.</li>
   </ul>
+</ul>
   
 ## Summary
 Based on the above results from the corresponding dataset, there does not seem to be any sort of statistical positivity bias for Vine participants whose reviews were included in this analysis. This assertion is largely based on the fact that 40.6% of Vine participants produced 5 starred reviews vs. 45.3% 5 starred reviews from non-Vine participants. It's reasonable to note that the sample size for Vine vs. non-Vine reviewers is significantly different. Because of this significant difference, and for the sake of remaining objective, it would be advisable to take these results with a grain of salt without expanding the analysis to include additional datasets from other categories. If one were to compare results across multiple categories and increase the sample size of reviews from Vine participants, a much more accurate idea of the existence or non-existence of positivity bias in Vine reviews would then be reflected.
