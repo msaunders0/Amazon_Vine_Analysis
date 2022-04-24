@@ -14,9 +14,9 @@ The purpose of this analysis is to test whether bias plays a role in producing f
 ## The Results
 <ul>
   <li> How many Vine reviews and non-Vine reviews were there?</li>
+  ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_paid.png)<br />
+  ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_unpaid.png)<br />
   <ul>
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_paid.png)<br />
-    ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/total_unpaid.png)<br />
     <li> The total number of Vine reviews was 261.</li>
     <li> The total number of non-Vine reviews was 24,040.</li>
   </ul>
