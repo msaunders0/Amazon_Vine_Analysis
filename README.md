@@ -9,7 +9,7 @@ For this analysis, a dataset of customer reviews, provided by Amazon, was used (
 ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/dataset.png)
 
 ## The Purpose
-The purpose of this analysis is to test whether bias plays a role in producing favorable reviews from Vine participants. The results will be somewhat limited, however, given that they will only reflect measured bias in the sampled dataset and not the entire Amazon review ecosystem in its' entirety.
+The purpose of this analysis is to test whether bias plays a role in producing favorable reviews from Vine participants. The results will be somewhat limited, however, given that they will only reflect measured bias in the sampled dataset and not all of the Amazon review ecosystem in its' entirety.
 
 ## The Results
 
