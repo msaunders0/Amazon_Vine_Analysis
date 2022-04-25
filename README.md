@@ -3,7 +3,7 @@
 ## Amazon Vine
 For those who are unaware, Amazon Vine is a service where "trusted" reviewers from the Amazon platform are selectively invited to partake in reviewing products that have not yet garnered much attention. Sellers are given the opportunity to provide free products to selected reviewers in order to earn "honest and unbiased" reviews for said products. Does this sound like incentivization for a positive review? Possibly, but lets take a look at the numbers.
 
-## The Data
+## Data
 For this analysis, a dataset of customer reviews, provided by Amazon, was used (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Home_Entertainment_v1_00.tsv.gz). The particular dataset that was chosen revolves around reviews for products in the Home Entertainment category. The data was filtered, using Pyspark, and hosted in a database via AWS RDS. Of particular interest for this analysis was the total number of paid vs. unpaid reviews, the number of 5-star paid vs. unpaid reviews, and the percentage of 5-star paid vs. unpaid reviews, which is reflected in the selected filters.
 
 ![image](https://github.com/msaunders0/Amazon_Vine_Analysis/blob/main/Resources/dataset.png)
@@ -11,7 +11,7 @@ For this analysis, a dataset of customer reviews, provided by Amazon, was used (
 ## The Purpose
 The purpose of this analysis is to test whether bias plays a role in producing favorable reviews from Vine participants. The results will be somewhat limited, however, given that they will only reflect measured bias in the sampled dataset and not all of the Amazon review ecosystem in its' entirety.
 
-## The Results
+## Results
 
 <ul>
   <li> How many Vine reviews and non-Vine reviews were there?</li>
